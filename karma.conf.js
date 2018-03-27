@@ -9,9 +9,10 @@ module.exports = function(config) {
 
     files: [
       'components/angular/angular.js',
+      'components/angular-route/angular-route.js',
       'components/angulartics/src/angulartics.js',
-      'components/angular-mocks/angular-mocks.js',
       'lib/angulartics-snowplow.js',
+      'components/angular-mocks/angular-mocks.js',
       'test/**/*.js'
     ],
 
