@@ -11,6 +11,7 @@
   ],
   "author": "Tim Elfelt <timelf123@gmail.com> (https://github.com/timelf123)",
   "contributors": [
+    "Meghashyam Adoni <adoni.inc@gmail.com> (https://github.com/madoni/)"
   ],
   "main": "lib/index.js",
   "scripts": {
@@ -27,9 +28,16 @@
   },
   "license": "MIT",
   "peerDependencies": {
-    "angulartics": "~0.20"
+    "angulartics": "^1.4.0"
   },
   "devDependencies": {
     "uglify-js": "^2.4.23"
+  },
+  "dependencies": {
+    "jasmine-core": "^3.1.0",
+    "karma": "^2.0.0",
+    "karma-jasmine": "^1.1.1",
+    "karma-phantomjs-launcher": "^1.0.4",
+    "phantomjs-prebuilt": "^2.1.16"
   }
 }

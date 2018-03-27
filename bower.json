@@ -1,9 +1,9 @@
 {
   "name": "angulartics-snowplow",
   "version": "0.0.1",
-  "main": "./dist/angulartics-snowplow.min.js",
+  "main": "lib/angulartics-snowplow.js",
   "dependencies": {
-    "angulartics": "~0.20"
+    "angulartics": "^1.4.0"
   },
   "ignore": [
     "**/.*",
@@ -12,5 +12,8 @@
     "example",
     "package.json",
     "lib/index.js"
-  ]
+  ],
+  "devDependencies": {
+    "angular-mocks": "^1.6.9"
+  }
 }

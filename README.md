@@ -41,7 +41,7 @@ bower install angulartics-snowplow
 Add the `<script>` to your `index.html`:
 
 ```html
-<script src="/bower_components/angulartics-snowplow/dist/angulartics-snowplow.min.js"></script>
+<script src="/dist/angulartics-snowplow.min.js"></script>
 ```
 
 Then add `angulartics.snowplow` as a dependency for your app:
